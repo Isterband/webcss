@@ -1,0 +1,27 @@
+#webcss_console {
+	width: 900px;
+	height: 400px;
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -450px;
+	-moz-box-shadow: #000 0px 10px 10px;
+}
+
+#webcss_console_head {
+	width: 100%;
+	height: 20px;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#webcss_console #console_container {
+	background-image: url("images/transparent.png");
+}
+
+#webcss_console textarea {
+	width: 100%;
+	height: 378px;
+	border: 0px;
+	background-image: url("images/transparent.png");
+}
