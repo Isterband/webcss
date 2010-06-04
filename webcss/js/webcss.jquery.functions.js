@@ -31,6 +31,7 @@ $(document).ready(function() {
 			success: function(result) {
 				if(result != "success") {
 					alert("An error has occured: couldn't save css-file");
+					alert(result);
 				} else {
 					update_css();
 				}

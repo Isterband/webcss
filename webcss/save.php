@@ -1,9 +1,15 @@
 <?php
 	$data = $_POST['data'];
-	$filePath = realpath("../" . $_POST['file']);
-	$filename = basename($_POST['file']);
+	preg_match('/([a-zA-Z0-9\/\.]+\.css)/', $_POST['file'], $matches);
+	$filePath = realpath("../" . $matches[1]);
 	
-	if(file_put_contents($filePath, $data)) {
-		echo "success";
+	if(!empty($filePath)) {
+		if(file_put_contents($filePath, $data)) {
+			echo "success";
+		}
+	} else {
+		
+		echo $_POST['file'];
+		
 	}
 ?>

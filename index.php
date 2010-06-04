@@ -8,6 +8,14 @@
 <script type="text/javascript" src="webcss/webcss.main.js"></script>
 </head>
 <body>
-majs
+<h1>This is webcss demopage!</h1>
+<p>Edit the css to your heart's content :)</p>
+
+<p>Testform, it won't do anything :O</p>
+<form action="" method="">
+	<label>Username: </label><input type="text" name="majs" /><br />
+	<label>Password: </label><input type="password" name="majs2" /><br />
+	<input type="submit" value="WOHO!" />
+</form>
 </body>
 </html>
