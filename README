@@ -1,11 +1,27 @@
-Install by adding the files and folders to your root-directory and add the javascript to your code;
+							##### INSTALLATION #####
+
+Add following code to the <head>-tag of your project, if you don't already have jQuery installed this will add it temporary to your site.
+
+-------------------------------------------------------------------------------------------------------------------------
 
 <script type="text/javascript" src="webcss/webcss.main.js"></script>
 
-and then add 
+-------------------------------------------------------------------------------------------------------------------------
+
+and then edit your <link>-css-tag with the code below.
+
+-------------------------------------------------------------------------------------------------------------------------
 
 name="webcss"
 
-to the CSS-link-tag you want to edit. Then start editing :)
+-------------------------------------------------------------------------------------------------------------------------
+
+And now you're done and you can start editing your CSS immediately!
+
+							##### INSTRUCTIONS #####
 
 CTRL+S saves the CSS and updates it so you can see your changes!
+
+							##### VERSION 0.1 BETA #####
+
+Report bugs to admin@rasmusmilesson.se
