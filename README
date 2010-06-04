@@ -1,3 +1,9 @@
-I will write something in here when I am sure about how this will work out.
+Install by adding the files and folders to your root-directory and add the javascript to your code;
 
-//Isterband
+<script type="text/javascript" src="webcss/webcss.main.js"></script>
+
+and then add 
+
+name="webcss"
+
+to the CSS-file you want to edit. Then start editing :)
