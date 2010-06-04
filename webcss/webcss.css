@@ -6,6 +6,7 @@
 	left: 50%;
 	margin-left: -450px;
 	-moz-box-shadow: #000 0px 10px 10px;
+	-webkit-box-shadow: #000 0px 10px 10px;
 	overflow: hidden;
 }
 
@@ -28,4 +29,8 @@
 	color: #fff;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#webcss_console textarea:active {
+	outline: none;
 }

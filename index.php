@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>Webcss - Testpage</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" name="webcss"/>
+<link href="css/main.css" rel="stylesheet" type="text/css" name="webcss" />
 <script type="text/javascript" src="webcss/webcss.main.js"></script>
 </head>
 <body>
