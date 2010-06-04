@@ -7,3 +7,5 @@ and then add
 name="webcss"
 
 to the CSS-link-tag you want to edit. Then start editing :)
+
+CTRL+S saves the CSS and updates it so you can see your changes!
