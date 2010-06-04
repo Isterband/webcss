@@ -1,6 +1,7 @@
 							##### INSTALLATION #####
 
-Add following code to the <head>-tag of your project, if you don't already have jQuery installed this will add it temporary to your site.
+Add the webcss-folder to your root-directory and add the following code to the <head>-tag of your project.
+If you don't already have jQuery installed this will add it temporary to your site.
 
 -------------------------------------------------------------------------------------------------------------------------
 
