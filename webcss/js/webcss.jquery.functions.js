@@ -11,5 +11,19 @@ $(document).ready(function() {
 	}
 	
 	spawn();
+	
+	$("#webcss_console_head").toggle(function() {
+		
+		$("#webcss_console").animate({
+			height: 400
+		}, "fast");
+		
+	}, function() {
+		
+		$("#webcss_console").animate({
+			height: 20
+		}, "fast");
+		
+	});
 
 });
