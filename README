@@ -1,21 +1,23 @@
 							##### INSTALLATION #####
 
-Add the webcss-folder to your root-directory and add the following code to the <head>-tag of your project.
+Add the webcss-folder to your webroot-directory and add the following code to the <head>-tag of your project.
 If you don't already have jQuery installed this will add it temporary to your site.
 
--------------------------------------------------------------------------------------------------------------------------
+NOTE: The css-file must be positioned relatively to your webroot path. This will not work with absolute paths, yet.
+
+------------------------------------------------------------------------------------------------
 
 <script type="text/javascript" src="webcss/webcss.main.js"></script>
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 and then edit your <link>-css-tag with the code below.
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 name="webcss"
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 And now you're done and you can start editing your CSS immediately!
 
